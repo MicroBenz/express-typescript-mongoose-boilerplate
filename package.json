@@ -1,0 +1,55 @@
+{
+  "name": "express-typescript-mongoose-boilerplate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node dist/index.js",
+    "build": "tsc",
+    "dev": "pm2 start pm2.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MicroBenz/express-typescript-mongoose-boilerplate.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MicroBenz/express-typescript-mongoose-boilerplate/issues"
+  },
+  "homepage": "https://github.com/MicroBenz/express-typescript-mongoose-boilerplate#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "config": "^3.3.1",
+    "cookie": "^0.4.1",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "helmet": "^3.23.3",
+    "js-yaml": "^3.14.0",
+    "mongoose": "^5.9.20",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "@types/body-parser": "^1.19.0",
+    "@types/config": "0.0.36",
+    "@types/cookie": "^0.4.0",
+    "@types/cookie-parser": "^1.4.2",
+    "@types/cors": "^2.8.6",
+    "@types/express": "^4.17.6",
+    "@types/helmet": "0.0.47",
+    "@types/mongoose": "^5.7.28",
+    "@types/morgan": "^1.9.1",
+    "@types/node": "^14.0.14",
+    "@typescript-eslint/eslint-plugin": "^2.16.0",
+    "@typescript-eslint/parser": "^2.16.0",
+    "eslint": "^6.1.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-config-airbnb-typescript": "^7.0.0",
+    "eslint-plugin-import": "^2.20.0",
+    "pm2": "^4.4.0",
+    "ts-node": "^8.10.2",
+    "typescript": "^3.9.5"
+  }
+}
